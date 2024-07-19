@@ -1,0 +1,67 @@
+#hero{
+    background-color: #08136A;
+}
+#hero-text{
+    color: white !important;
+    font-size: 800%;
+    font-family: sans-serif;
+    
+}
+.name-text{
+    color: #e53d00;
+    display: block;
+}
+html{
+    background-color: #08136A;
+}
+#about-me{
+    background-color: #08136A;
+}
+.profile-image{
+    border-radius: 50%;
+    height: 100px;
+}
+#experience{
+    background-color: #08136A;
+}
+#experience-text{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3em;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+#red-bg{
+    background-color: white !important;
+}
+#skills{
+    background-color: #08136A;
+    color: white;
+}
+#skill-text{
+    font-size: 3rem;
+    font-weight: 499;
+}
+#text-white{
+    color: white !important;
+}
+#footer{
+    background-color:#e53d00 !important;
+}
+#footer a, #footer p {
+    color: white !important;
+  }
+@media(max-width: 994px){
+    #hero-element{
+        display: none !important;
+    }
+    #hero{
+        min-height: 100vh !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
